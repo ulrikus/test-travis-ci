@@ -1,0 +1,7 @@
+dist: focal
+language: c++
+install: cmake
+compiler: clang
+branches:
+  only:
+    - main
