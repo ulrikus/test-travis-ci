@@ -1,0 +1,32 @@
+# clang-format: 10
+BasedOnStyle: llvm
+IndentWidth: 4
+Language: Cpp
+ColumnLimit: 120
+AccessModifierOffset: -4
+AlignConsecutiveAssignments: true
+AlignTrailingComments: true
+AllowShortBlocksOnASingleLine: true
+AllowShortIfStatementsOnASingleLine: WithoutElse
+AllowShortLambdasOnASingleLine: true
+AlwaysBreakAfterReturnType: None
+BinPackParameters: false
+BinPackArguments: false
+NamespaceIndentation: All
+BreakBeforeBraces: Custom
+BraceWrapping:
+    AfterEnum: true
+    AfterClass: true
+    AfterFunction: true
+    AfterNamespace: true
+    AfterControlStatement: true
+    AfterStruct: true
+    AfterUnion: true
+    AfterExternBlock: true
+    BeforeCatch: true
+    BeforeElse: false
+    SplitEmptyFunction: false
+BreakConstructorInitializers: BeforeComma
+IndentCaseLabels: true
+ReflowComments: true
+SortIncludes: true
